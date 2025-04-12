@@ -1,0 +1,44 @@
+
+header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      /* padding: 40px; This means 40px on the top, right, left and bottom */
+      /* padding: 40px 40px 40px; This means that the first 40px is on the top, the second 40px is the left and right, the last 40px is the bottom  */
+      /* padding: 40px 40px 40px 40px; This means the first 40px is the top, the second 40px is the right, the third 40px is the bottom, and lastly the fourth 40px is the left */
+      padding: 48.02px 82px 21.02px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
+}
+
+#auth {
+    border: none;
+    background-color: transparent;
+}
+
+#nav-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: poppins; To be discussed in the next class*/
+}
+
+#nav {
+    /* border-width: 0.5px; */
+    /* border-color: #CC0069; */
+    /* border-style: solid; */
+    border: 0.5px solid #CC0069; /* short form for border-width, border-style, and border-color  */
+}
+
+#home {
+    color: #CC0069;
+}
+
+#icons {
+    display: flex ;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
