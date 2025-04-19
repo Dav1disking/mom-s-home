@@ -6,7 +6,8 @@ header {
       /* padding: 40px; This means 40px on the top, right, left and bottom */
       /* padding: 40px 40px 40px; This means that the first 40px is on the top, the second 40px is the left and right, the last 40px is the bottom  */
       /* padding: 40px 40px 40px 40px; This means the first 40px is the top, the second 40px is the right, the third 40px is the bottom, and lastly the fourth 40px is the left */
-      padding: 48.02px 82px 21.02px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
+      padding: 21.02px 82px 21.02px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
+      align-items: center;
 }
 
 #auth {
@@ -48,13 +49,15 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 247px 24px 71px;
+    /* padding: 247px 24px 71px; */
     background: linear-gradient(to right, #FFDEEF,#FFDEEF, #DFF3FA);
+    /* height: 50%; */
+    height: 424px;
 }
 
 #info-box {
     display: flex;
-    padding: 0px 400px 0px 350px;;
+    /* padding: 0px 400px 0px 350px;; */
 }
 
 #botttom {
@@ -65,12 +68,14 @@ header {
 #text {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    width: 50%;
+    gap: 16px;
 }
 
 #photo {
     display: flex;
     flex-direction: row;
+    width: 50%;
 }
 
 #smaller-text {
