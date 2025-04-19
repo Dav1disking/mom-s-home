@@ -1,4 +1,9 @@
 
+body{
+    /* font-family: "Noto Serif", serif; */
+    font-family: "Poppins", sans-serif;
+}
+
 header {
       display: flex;
       flex-direction: row;
@@ -47,7 +52,7 @@ header {
 #chevron {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* padding: 247px 24px 71px; */
     background: linear-gradient(to right, #FFDEEF,#FFDEEF, #DFF3FA);
@@ -58,6 +63,8 @@ header {
 #info-box {
     display: flex;
     /* padding: 0px 400px 0px 350px;; */
+    gap: 20px;
+    width: 1000px;
 }
 
 #botttom {
@@ -78,16 +85,69 @@ header {
     width: 50%;
 }
 
-#smaller-text {
-    font-weight: 4S00;
-    size: 20px;
-    color: #161616;
+.left-text {
+    margin: 0;
 }
 
-#learn-more {
+#Hero-Header-Text {
+    font-family: "Noto Serif", serif;;
+}
+
+#Hero-Header-Text-One {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#Hero-Header-Button {
+    font-weight: 400;
+    font-size: 16px;
     color: #CC0069;
 }
 
-#infomation {
+#indicator-box {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.indicator{
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+#info-box-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#First-indicator {
+    background-color: black;
+}
+
+#About-Section-Header {
+    font-weight: 600;
+    size: 32px;
+    font-family: "Noto Serif", serif;
+    color: #CC0069;
+}
+
+#About-Section-Text {
+    font-weight: 400;
+    size: 18px; 
     color: #161616;
+}
+
+#About-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 56px 186px 56px 175px;
+}
+
+p{
+    line-height: 140%;
 }
