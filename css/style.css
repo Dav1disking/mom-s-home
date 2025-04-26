@@ -11,13 +11,14 @@ header {
       /* padding: 40px; This means 40px on the top, right, left and bottom */
       /* padding: 40px 40px 40px; This means that the first 40px is on the top, the second 40px is the left and right, the last 40px is the bottom  */
       /* padding: 40px 40px 40px 40px; This means the first 40px is the top, the second 40px is the right, the third 40px is the bottom, and lastly the fourth 40px is the left */
-      padding: 21.02px 82px 21.02px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
+      padding: 21.02px 70px 21.02px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
       align-items: center;
 }
 
 #auth {
     border: none;
     background-color: transparent;
+    font-size: 16px;
 }
 
 #nav-items {
@@ -28,6 +29,7 @@ header {
     gap: 22px;
     font-size: 16px;
     font-weight: 400;
+    padding: 0px;
     /* font-family: poppins; To be discussed in the next class*/
 }
 
@@ -166,7 +168,7 @@ p {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 1668px;
+    /* width: 1668px; */
     height: 777px;
     background-color: #FFDEEF;
 }
@@ -352,4 +354,71 @@ p {
     gap: 10.5px;
     margin: 8px 0px;
     background-color: #ffffff;
+}
+#menubar {
+    display: none;
+}
+
+#nav-items-moblie {
+  display: none;
+}
+
+/* Responsiveness */
+
+/* Moblie */
+@media (max-width: 767px){
+/* This means every style here will work for devices with a max width of 767px */
+    header {
+        padding: 5px 10px 5px;
+    }
+    #icons {
+        gap: 10px;
+    }
+
+    #menubar {
+        display: flex;
+    }
+
+    .hidden {
+        display: none;
+    }
+    #nav {
+        border: none;
+        background-color: #CC0069;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px 0px #5B5B5B40;
+    }
+    #nav-items-moblie {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        flex-direction: column;
+        color: white;
+        padding: 20px;
+        gap: 14px;
+        margin: 0px;
+    }
+    #home {
+        color: rgb(0, 0, 0);
+    }
+    #nav-items {
+        display: none;
+    }
+}
+
+/* Tablet  */
+@media (min-width: 768px) and (max-width: 1023px) {
+/* This means every style here will work for devices between the range of 768px and 1023px */
+    header {
+        padding: 10px 25px 10px;
+    }
+    #menubar {
+        display: none;
+    }
+    #nav-items-moblie {
+        display: none;
+      }
+      #nav-items {
+        display: flex;
+      }
 }
