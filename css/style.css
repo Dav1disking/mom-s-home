@@ -148,6 +148,208 @@ header {
     margin: 56px 186px 56px 175px;
 }
 
-p{
+p {
     line-height: 140%;
+}
+
+
+#Head {
+    font-weight: 600;
+    size: 32px;
+    font-family: "Noto Serif", serif;
+    color: #000000;
+}
+
+#Health-Wellness {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1668px;
+    height: 777px;
+    background-color: #FFDEEF;
+}
+
+#Health-Title {
+    font-weight: 600;
+    size: 32px;
+    font-family: "Noto Serif", serif;
+    margin: 0px;
+}
+
+#Sub-Title {
+    font-weight: 600;
+    size: 24px;
+    font-family: "Noto Serif", serif;
+    margin: 0px;
+    margin-top: 8px;
+}
+
+#Informative-box{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 502px 502px;
+    grid-template-rows: 151px 151px 151px;
+    gap: 28px 48px;
+}
+
+.Informative-title {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    width: 502px;
+    height: 151px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #5B5B5B40;
+    padding: 8px 14px;
+}
+
+.Text-Class-Box {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 1px 20px;
+    line-height: 0px;
+}
+
+.description {
+    margin: 12px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Contrubitor {
+    margin: 12px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#Tools-Features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #DFF3FA;
+    margin: 56px 412px 55px; 
+    height: 413px;
+}
+
+#Tools-Features-Title {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    font-weight: 600;
+    size: 32px;
+    font-family: "Noto Serif", serif;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+#Image-Container {
+    display: grid;
+    grid-template-columns: 171px 171px 213px;
+    grid-template-rows: 239px;
+    gap: 20px;
+    padding: 110px 16px 16px 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    gap: 40px;
+}
+
+#image-png {
+    border-radius: 2000px;
+    width: 145px;
+    height: 145px;
+}
+
+#Text-Image-box1 {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+    align-items: center;
+    align-content: center; 
+    margin: 0px;
+}
+
+#Text-Image-box2 {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+}
+
+#Text-Image-box3 {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+    align-items: center;
+    align-content: center;  
+    margin: 0px;
+}
+
+#Text-Image-box-sub {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+    margin: 0px 35px 8px;
+}
+
+#Tools-Features-Box {
+    margin: 24px 0px 24px 0px;
+}
+
+#Market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 980px;
+    background-color: #FFDEEF;
+}
+
+#Market-Title {
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: "Noto Serif", serif;
+}
+
+#Market-Sub-Title {
+    margin: 8px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+}
+
+#Market-Box-Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 55px;
+}
+
+#Compoenet-Container {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 38px;
+    gap: 20px;
+    padding: 110px 16px 16px 16px;
+    padding: 16px;
+    gap: 10.5px;
+    margin: 8px 0px;
+    background-color: #ffffff;
 }
