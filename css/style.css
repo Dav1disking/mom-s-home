@@ -379,6 +379,11 @@ p {
         display: flex;
     }
 
+    #menubar:active {
+        transform: rotate(360deg);
+        transition: 2s;
+    }
+
     .hidden {
         display: none;
     }
@@ -398,7 +403,7 @@ p {
         gap: 14px;
         margin: 0px;
     }
-    #home {
+    #Home {
         color: rgb(0, 0, 0);
     }
     #nav-items {
