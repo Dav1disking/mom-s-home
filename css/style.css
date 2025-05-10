@@ -11,8 +11,9 @@ header {
       /* padding: 40px; This means 40px on the top, right, left and bottom */
       /* padding: 40px 40px 40px; This means that the first 40px is on the top, the second 40px is the left and right, the last 40px is the bottom  */
       /* padding: 40px 40px 40px 40px; This means the first 40px is the top, the second 40px is the right, the third 40px is the bottom, and lastly the fourth 40px is the left */
-      padding: 21.02px 70px 21.02px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
+      padding: 0px 70px 0px; /* This means that the first 40px top and bottom while the other 40px is left and right*/
       align-items: center;
+      height: 5vh;
 }
 
 #auth {
@@ -37,7 +38,12 @@ header {
     /* border-width: 0.5px; */
     /* border-color: #CC0069; */
     /* border-style: solid; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     border: 0.5px solid #CC0069; /* short form for border-width, border-style, and border-color  */
+    /* height: 10vh; */
+    
 }
 
 #home {
@@ -59,14 +65,18 @@ header {
     /* padding: 247px 24px 71px; */
     background: linear-gradient(to right, #FFDEEF,#FFDEEF, #DFF3FA);
     /* height: 50%; */
-    height: 424px;
+    height: 80vh;
+    position: relative;
 }
 
 #info-box {
     display: flex;
     /* padding: 0px 400px 0px 350px;; */
     gap: 20px;
-    width: 1000px;
+    /* width: 1000px; */
+    margin: 0 30px;
+    align-items: center;
+
 }
 
 #botttom {
@@ -83,9 +93,12 @@ header {
 
 #photo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     margin: 0px;
     padding: 0px;
+    width: 50%;
 }
 
 .left-text {
@@ -111,6 +124,8 @@ header {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    position: absolute;
+    bottom: 20px;
 }
 
 .indicator{
@@ -125,6 +140,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 1100px;
 }
 
 #First-indicator {
@@ -193,6 +209,7 @@ p {
     margin-top: 40px;
     display: grid;
     justify-content: center;
+    align-items: center;
     grid-template-columns: 502px 502px;
     grid-template-rows: 151px 151px 151px;
     gap: 28px 48px;
@@ -243,7 +260,7 @@ p {
     background-color: #DFF3FA;
     margin: 56px 412px 55px; 
     height: 413px;
-    width: 100%;
+    width: 50%;
 }
 
 #Tools-Features-Title {
@@ -365,13 +382,20 @@ p {
   display: none;
 }
 
+.arrow {
+    height: 50px;
+    width: 50px;
+}
+
+
 /* Responsiveness */
 
 /* Moblie */
 @media (max-width: 767px){
 /* This means every style here will work for devices with a max width of 767px */
     header {
-        padding: 5px 10px 5px;
+        padding: 0px 10px 0px;
+        height: 10vh;
     }
     #icons {
         gap: 10px;
@@ -412,16 +436,66 @@ p {
         display: none;
     }
     #About-Section-Header {
-       font-size: 10px;
-       font-weight: 300;
+       font-size: 24px;
     }
     #About-Section-Text{
-       font-weight: 200;
-       font-size: 5px;
+       font-size: 16px;
     }
     #About-Section{
-        width: 100%;
+        margin: 0px 10px;
     }
+    #photo{
+        display: none;
+    }
+    #info-box {
+        width: auto;
+    }
+    #text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 20px;
+    }
+    #chevron {
+        height: 90vh;
+    }
+    .bar {
+        display: none;
+    }
+    .left-text {
+        text-align: center;
+    }
+    #indicator-box {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        position: absolute;
+        bottom: 25px;
+    }
+    .indicator {
+        width: 12px;
+        height: 12px;
+    }
+    #Informative-box {
+    margin-top: 40px;
+    padding: 0px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20px;
+    grid-template-rows: 151px 151px 151px;
+    gap: 28px 48px;
+    }
+    #Image-Container {
+    display: grid;
+    grid-template-columns: 171px;
+    grid-template-rows: 239px;
+    gap: 20px;
+    padding: 110px 16px 16px 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    gap: 40px;
+}
 }
 
 /* Tablet  */
@@ -439,4 +513,29 @@ p {
       #nav-items {
         display: flex;
       }
+      #About-Section{
+        margin: 0px 10px;
+    }
+    #photo{
+        display: none;
+    }
+    #info-box {
+        width: auto;
+    }
+    #text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 20px;
+    }
+    #chevron {
+        height: 84vh;
+    }
+    .bar {
+        display: none;
+    }
+    .left-text {
+        text-align: center;
+    }
 }
