@@ -2,6 +2,8 @@
 body{
     /* font-family: "Noto Serif", serif; */
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -168,7 +170,7 @@ header {
 }
 
 p {
-    line-height: 140%;
+    /* line-height: 140%; */
 }
 
 
@@ -180,13 +182,14 @@ p {
 }
 
 #Health-Wellness {
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     /* width: 1668px; */
-    height: 777px;
+    /* height: 777px; */
     background-color: #FFDEEF;
 }
 
@@ -203,6 +206,7 @@ p {
     font-family: "Noto Serif", serif;
     margin: 0px;
     margin-top: 8px;
+    text-align: center;
 }
 
 #Informative-box{
@@ -210,12 +214,14 @@ p {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 502px 502px;
-    grid-template-rows: 151px 151px 151px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 151px 151px 151px; */
     gap: 28px 48px;
+    width: 95%;
 }
 
 .Informative-title {
+    margin: 10px 0;
     font-weight: 500;
     font-size: 24px;
     font-family: "Noto Serif", serif;
@@ -224,8 +230,8 @@ p {
 .boxes {
     display: flex;
     flex-direction: row;
-    width: 502px;
-    height: 151px;
+    /* width: 502px; */
+    /* height: 151px; */
     background-color: #ffffff;
     box-shadow: 0px 4px 4px 0px #5B5B5B40;
     padding: 8px 14px;
@@ -236,7 +242,7 @@ p {
     display: flex;
     flex-direction: column;
     margin: 0px 0px 1px 20px;
-    line-height: 0px;
+    /* line-height: 0px; */
 }
 
 .description {
@@ -258,9 +264,10 @@ p {
     align-items: center;
     align-content: center;
     background-color: #DFF3FA;
-    margin: 56px 412px 55px; 
+    /* margin: 56px 412px 55px;  */
     height: 413px;
-    width: 50%;
+    /* width: 50%; */
+    padding: 0 20px;
 }
 
 #Tools-Features-Title {
@@ -272,12 +279,12 @@ p {
     font-family: "Noto Serif", serif;
     align-items: center;
     margin-top: 24px;
-    margin-bottom: 48px;
+    /* margin-bottom: 0px; */
 }
 
 #Image-Container {
     display: grid;
-    grid-template-columns: 171px 171px 213px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 239px;
     gap: 20px;
     padding: 110px 16px 16px 16px;
@@ -336,22 +343,23 @@ p {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    height: 980px;
+    /* height: 980px; */
     background-color: #FFDEEF;
 }
 
 #Market-Title {
-    margin: 0px 0px 0px 0px;
     font-weight: 600;
     font-size: 32px;
     font-family: "Noto Serif", serif;
+    margin: 0;
 }
 
 #Market-Sub-Title {
-    margin: 8px 0px 0px 0px;
     font-weight: 600;
     font-size: 24px;
     font-family: "Noto Serif", serif;
+    margin: 0;
+    text-align: center;
 }
 
 #Market-Box-Title {
@@ -362,18 +370,122 @@ p {
     margin: 55px;
 }
 
+
 #Compoenet-Container {
     margin: 0px;
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 38px;
-    gap: 20px;
-    padding: 110px 16px 16px 16px;
-    padding: 16px;
-    gap: 10.5px;
-    margin: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 54px;
+    gap: 8px;
+    margin: 8px 1118px 8px 0px;
     background-color: #ffffff;
+    border-radius: 4px;
 }
+
+.Context {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+#Image-Market {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#Box-Image-Market {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width: 1247px; */
+    /* height: 623px; */
+    margin-top: 20px;
+    gap: 40px;
+}
+
+#image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 24px 15px 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #5B5B5B40;
+}
+
+#marketable-text {
+    margin: 24px 15px 50px;
+}
+
+#view-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #CC0069;
+    color: #ffffff;
+    width: 86px;
+    height: 46px;
+}
+
+#Color {
+    background-color: #CC0069;
+    color: #ffffff;
+}
+
+#Community-box-holder {
+    margin: 56px 357px;
+}
+
+#Community-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 56px 357px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+#Text-Community {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Noto Serif", serif;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxes-Community-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #DFF3FA;
+    box-shadow: 0px 4px 4px 0px #5B5B5B40;
+    width: 333px;
+    height: 258px;
+}
+
+#boxes-Community-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFDEEF;
+    box-shadow: 0px 4px 4px 0px #5B5B5B40;
+    width: 333px;
+    height: 258px;
+}
+
+
 #menubar {
     display: none;
 }
@@ -385,6 +497,13 @@ p {
 .arrow {
     height: 50px;
     width: 50px;
+}
+
+#Tools-Features-Container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 56px 0;
 }
 
 
@@ -478,23 +597,136 @@ p {
         height: 12px;
     }
     #Informative-box {
-    margin-top: 40px;
     padding: 0px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 20px;
-    grid-template-rows: 151px 151px 151px;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 151px 151px 151px; */
     gap: 28px 48px;
+    width: 90%;
+    margin: 0 auto 40px;
     }
-    #Image-Container {
-    display: grid;
-    grid-template-columns: 171px;
-    grid-template-rows: 239px;
+.boxes {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+     margin: 0 auto;
+}
+#Health-Wellness {
+    height: 100%;
+}
+#imageforbox {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.Text-Class-Box {
+    margin: 0;
+}
+#Health-Title {
+    font-size: 24px;
+}
+#Sub-Title {
+    font-size: 16px;
+}
+
+#Health-Header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#Informative-title {
+    margin: 10px 0px;
+}
+
+#imageforbox {
+    object-fit: cover;
+}
+
+#Compoenet-Container {
+    margin: 0px;
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 38px; */
     gap: 20px;
-    padding: 110px 16px 16px 16px;
-    margin-bottom: 16px;
-    padding: 16px;
-    gap: 40px;
+    /* padding: 110px 16px 16px 16px; */
+    /* padding: 16px; */
+    gap: 10.5px;
+    margin: 8px 0px;
+    background-color: #ffffff;
+}
+
+#Tools-Features {
+    height: auto;
+    width: 100%;
+    gap: 10px;
+}
+
+#Tools-Features-Box {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#Image-Container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#Tools-Features-Container {
+    margin: 0;
+}
+
+#Tools-Feature-Title {
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+}
+
+#Text-Image-Container {
+  margin: 0;
+}
+
+#Text-Image-box-sub {
+    margin: 0;
+    align-items: center;
+}
+
+#Text-Image-box-sub {
+    align-items: center;
+}
+
+#Market-Title { 
+    font-size: 24px;
+}
+
+#Market-Sub-Title {
+    font-size: 16px;
+}
+
+#Compoenet-Container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Context{
+    width: 100%;
+}
+
+#image-box {
+    margin: 0;
+}
+
+#Box-Image-Market {
+    grid-template-columns: 1fr;
+    width: 90%;
+    /* margin: 20px 10px 0; */
 }
 }
 
@@ -538,4 +770,70 @@ p {
     .left-text {
         text-align: center;
     }
+    #Informative-box {
+    padding: 0px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 151px 151px 151px; */
+    gap: 28px 48px;
+    width: 90%;
+    margin: 0 auto 40px;
+
+    }
+.boxes {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+     margin: 0 auto;
+}
+#Health-Wellness {
+    height: 100%;
+}
+#imageforbox {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Text-Class-Box {
+    margin: 0;
+}
+#Health-Title {
+    font-size: 24px;
+}
+#Sub-Title {
+    font-size: 16px;
+}
+
+#Health-Header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+#Informative-title {
+    margin: 10px 0px;
+}
+
+#Tools-Features-Title {
+    margin-bottom: 0;
+}
+
+#Box-Image-Market {
+    grid-template-columns: 1fr;
+    /* width: 75%; */
+}
+/* 
+#Compoenet-box {
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    
+} */
+
+#image-box {
+    margin: 0;
+}
 }
