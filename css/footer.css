@@ -1,0 +1,136 @@
+#footer-Container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #FFDEEF, #FFDEEF, #DFF3FA);
+    height: 253px;
+    padding: 0;
+}
+
+#footer-input {
+    background-color: #FCFCFC;
+    height: 52px;
+    width: 390px;
+    outline-style: none;
+    border: none;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+#footer-Button {
+    background-color: #CC0069;
+    height: 52px;
+    width: 128px;
+
+    color: white;
+    border-radius: 4px;
+
+    outline-style: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+#footer-left {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#footer-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#footer-Socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 24px;
+}
+
+#Social-Logo {
+    display: flex;
+    gap: 16px;
+}
+
+#footer-Right-Content {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-Links {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+#footer-ul-for-Home-About-us {
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    color: #000000;
+}
+
+#footer-ul-for-Contact-us-Commmunity {
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    color: #000000;
+}
+
+@media (max-width: 767px) {
+
+    #footer-Container {
+        height: 400px;
+    }
+
+    #footer-Right-Content {
+        width: 100%;
+    }
+
+    #footer-Main {
+        width: 90%;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    #footer-left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-Button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    #footer-Main {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+}

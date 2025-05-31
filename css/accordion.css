@@ -1,0 +1,58 @@
+.accordionDiv {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.accordionDiv details {
+  border: 1px solid #ffdeef;
+  transition: 0.3s ease;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.accordionDiv details:not([open]) {
+  background-color: #ffdeef;
+}
+
+.accordionDiv summary {
+  cursor: pointer;
+  padding: 20px 20px 20px;
+  font-weight: bold;
+  list-style: none;
+  color: black;
+}
+
+.accordionDiv details[open] p {
+  background-color: white;
+  padding: 1em;
+  border-top: 1px solid #ffdeef;
+  margin: 0;
+}
+
+.accordionDiv details:not([open]) p {
+  display: none;
+}
+
+/* Responsiveness */
+
+/* Moblie */
+
+@media (max-width: 767px){
+    
+    .accordionDiv details {
+        width: 90%;
+}
+
+}
+
+/* Tablet  */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .accordionDiv details {
+       width: 90%;
+    }
+}
